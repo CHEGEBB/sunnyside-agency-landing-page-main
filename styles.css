@@ -1,0 +1,402 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+/* Global Styles */
+body {
+    background-color: hsl(212, 27%, 19%);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Header Section */
+.container {
+    background: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: -590px;
+    gap: 400px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.logo {
+    margin-left: -100px;
+}
+
+.logo img {
+    width: 160px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+/* Creatives Section */
+.creatives p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: -1020px;
+    font-size: 50px;
+    margin-top: -100px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head p{
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+
+}
+
+.contact button {
+    height: 40px;
+    width: 120px;
+    border-radius: 18px;
+    margin-top: -20px;
+    border: none;
+    font-size: 15px;
+}
+
+.arrow {
+    margin-left: -1040px;
+    margin-top: 50px;
+}
+
+/* Transform Section */
+.transform {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Brand Section */
+.brand {
+    background-color: hsl(0, 0%, 100%);
+    height: 550px;
+    text-align: center;
+    width: 700px;
+}
+
+.brand h1 {
+    text-align: center;
+}
+
+.brand p {
+    text-align: center;
+    width: 380px;
+    margin-left: 140px;
+    line-height: 1.5rem;
+}
+
+/* Service Section */
+.service {
+    margin-top: 200px;
+}
+
+/* Stand Out Section */
+.stand {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.out {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* Fruits Section */
+.fruits {
+    display: flex;
+    flex-direction: row;
+}
+
+.egg img {
+    width: 700px;
+    height: 550px;
+}
+
+/* Graphic Section */
+.graphic {
+    display: flex;
+    flex-direction: column;
+    
+}
+.fruits{
+    margin-top: -10px;
+}
+
+.glass img {
+    width: 650px;
+    height: 650px;
+}
+.learn1 p {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.learn1 p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 130px;
+    margin-left: 120px;
+    height: 50%; /* Adjust the height of the marker */
+    background: linear-gradient(to right, yellow, transparent); /* Yellow gradient line */
+    border-radius: 12px;
+    font-family: 'Fraunces', serif;
+    background-color: yellow;
+    
+    
+}
+
+.learn2 p {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.learn2 p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 130px;
+    height: 50%; /* Adjust the height of the marker */
+    background: linear-gradient(to right, hsl(7, 99%, 70%), transparent); /* Custom color gradient line */
+    border-radius: 12px;
+    font-family: 'Fraunces', serif;
+    background-color:hsl(7, 99%, 70%) ;
+    margin-left: 120px;
+}
+
+.out {
+    width: 700px;
+    height: 650px;
+}
+
+/* Audience Section */
+.audience {
+    text-align: center;
+    margin-top: 200px;
+    width: 380px;
+}
+
+.audience p {
+    width: 380px;
+    margin-left: 140px;
+    line-height: 1.5rem;
+}
+
+.audience h1 {
+    text-align: center;
+    width: 450px;
+    margin-left: 150px;
+}
+
+/* Design Section */
+.design {
+    margin-top: -200px;
+}
+
+.design p {
+    width: 380px;
+    margin-left: 140px;
+    line-height: 1.5rem;
+}
+
+.design h1 {
+    text-align: center;
+    width: 450px;
+    margin-left: 150px;
+}
+
+/* Increase Section */
+.increase {
+    margin-top: -100px;
+}
+
+.increase p {
+    width: 380px;
+    margin-left: 140px;
+    line-height: 1.5rem;
+}
+
+.increase h1 {
+    text-align: center;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    flex-direction: row;
+}
+
+.products img {
+    width: 350px;
+    height: 300px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: aliceblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.people {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.testimonials h1{
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.emily img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.emily h1{
+    font-size: 22px;
+}
+.thomas h1{
+    font-size: 22px;
+}
+.jennie h1{
+    font-size: 22px;
+}
+.jennie{
+    margin-top: -150px;
+    width: 280px;
+}
+.thomas{
+    margin-top: -150px;
+    width: 300px;
+}
+.emily{
+    margin-top: -150px;
+    width: 300px;
+
+    
+}
+
+.thomas img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.jennie img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.position1{
+    width: 140px;
+}
+.position2{
+    width: 200px;
+}
+.position3{
+    width: 120px;
+}
+/* between section */
+.oranges img {
+    width: 700px;
+    height: 650px;
+}
+
+.cherry img {
+    width: 650px;
+    height: 650px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: hsl(168, 54%, 65%);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.logo2 img {
+    filter: hue-rotate(180deg) saturate(100%) brightness(20%);
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: hsl(168, 34%, 41%);
+    align-items: center;
+}
+
+.down2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 200px;
+}
+
+/* Social Media Icons */
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
